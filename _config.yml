@@ -1,8 +1,8 @@
 #-------------------------------
 # General Site Settings
 
-title: Galada Theme | Theme for Jekyll
-description: Galada is an easy and simple theme for Jekyll. Dark colors, give it a special exquisite look. A careful approach to design and features make it an ideal solution for a personal blog. # this means to ignore newlines until "baseurl:"
+title: Johnny Parry
+description: Galada is an easy and simple theme for Jekyll. Dark colors, give it a special exquisite look. A careful approach to design and features make it an ideal solution for a personal blog
 baseurl: "/galada" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -46,7 +46,11 @@ mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.
 markdown: kramdown
 permalink: ':title/'
 plugins:
+  - jekyll-paginate
   - jekyll-sitemap
+
+paginate: 7
+paginate_path: "/page/:num"
 
 include:
   - _pages

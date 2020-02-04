@@ -114,10 +114,7 @@
   .social-profiles-link {
     display: inline-block;
     line-height: 16px;
-    padding: 8px 10px;
-    border: 1px solid $border-color;
-    border-radius: $global-radius;
-    color: $border-color;
+    padding: 8px 5px;
     &:hover {
       border-color: $primary-color;
       color: $primary-color;

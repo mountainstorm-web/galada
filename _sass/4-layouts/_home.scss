@@ -1,6 +1,6 @@
 // Header
 .header {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   background: $black;
 }
 
@@ -252,7 +252,6 @@
 .article {
   display: flex;
   margin-bottom: 25px;
-  /*
   &:hover {
     .article-image {
       .image-overlay-text {
@@ -265,10 +264,9 @@
         width: 100%;
       }
     }
-  }*/
+  }
   .article-box {
-    padding-bottom: 20px;
-    border-bottom: 2px solid $border-color;
+    padding-bottom: 10px;
   }
   .article-head {
     background: $black;
@@ -341,7 +339,7 @@
           }
           &:hover {
             background: $primary-color;
-            color: $white;
+            color: $background;
           }
         }
       }
